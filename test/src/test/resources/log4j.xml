@@ -40,7 +40,8 @@
     </appender>
 
     <root>
-        <level value="OFF"/>
+        <level value="INFO"/>
+        <appender-ref ref="CONSOLE"/>
         <appender-ref ref="TOTAL"/>
     </root>
 </log4j:configuration>

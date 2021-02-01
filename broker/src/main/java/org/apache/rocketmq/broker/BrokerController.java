@@ -892,6 +892,7 @@ public class BrokerController {
             @Override
             public void run() {
                 try {
+                	System.out.println("registerBrokerAll");
                     BrokerController.this.registerBrokerAll(true, false, brokerConfig.isForceRegister());
                 } catch (Throwable e) {
                     log.error("registerBrokerAll Exception", e);
